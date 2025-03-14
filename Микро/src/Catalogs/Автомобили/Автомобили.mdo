@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Автомобили.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="134d9df7-f184-4904-bcd4-4cfa3d83fbd9">
     <name>Госномер</name>
     <synonym>
@@ -48,4 +49,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="39cddf62-3a3f-4fe3-a679-0b8f3e435ef3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
