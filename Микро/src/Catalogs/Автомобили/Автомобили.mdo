@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f58b392-d31f-4397-8a92-50d453a5b6fa">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f58b392-d31f-4397-8a92-50d453a5b6fa">
   <producedTypes>
     <objectType typeId="276946ea-8767-4dc4-820e-b8ebb35bb32b" valueTypeId="eea12678-3a00-4d01-a68d-0eaf1279e690"/>
     <refType typeId="8f94df70-ff77-4ad6-9a9e-269093db1157" valueTypeId="05ca338e-4b8e-45d2-a474-3734eff95a58"/>
@@ -30,4 +30,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="134d9df7-f184-4904-bcd4-4cfa3d83fbd9">
+    <name>Госномер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Госномер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
