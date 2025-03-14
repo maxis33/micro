@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dbdca24-be3b-40f2-8b7b-f6ef81eea414">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6f70b424-e5fb-40d5-8a62-e51368609263"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="131a67bd-f7f3-48ba-ae40-04f4747a237b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bcac6d45-7d06-4ea6-8e79-5376a917e965"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b997ef4f-bb51-4e0c-ba3a-11894abe1951"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bc6b5953-e5a1-44ab-b43f-5a8138ad87e2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0a6c2eed-d91b-41d4-a2c0-3d6a0730d4d8"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7f635621-73b2-4c65-af9b-b38f420c2533"/>
+  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="53fd6d22-d412-4ced-9749-1196deb6fd33">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Основная</subsystems>
+  <roles>Role.Главная</roles>
+  <catalogs>Catalog.Автомобили</catalogs>
+</mdclass:Configuration>
