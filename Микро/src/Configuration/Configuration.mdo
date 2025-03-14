@@ -37,5 +37,6 @@
   </languages>
   <subsystems>Subsystem.Основная</subsystems>
   <roles>Role.Главная</roles>
+  <commonModules>CommonModule.УправлениеАвтомобилями</commonModules>
   <catalogs>Catalog.Автомобили</catalogs>
 </mdclass:Configuration>
